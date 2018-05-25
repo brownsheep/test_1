@@ -15,6 +15,20 @@
 		2FD9793D20AC1F1A00840301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9793C20AC1F1A00840301 /* main.m */; };
 		2FD9794720AC1F1A00840301 /* test_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9794620AC1F1A00840301 /* test_1Tests.m */; };
 		2FD9795220AC1F1A00840301 /* test_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9795120AC1F1A00840301 /* test_1UITests.m */; };
+		2FD9796220AC20E500840301 /* BeginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9796020AC20E500840301 /* BeginViewController.m */; };
+		2FD9796320AC20E500840301 /* BeginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD9796120AC20E500840301 /* BeginViewController.xib */; };
+		2FD9796520AC265200840301 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD9796420AC265200840301 /* 1.jpg */; };
+		2FD9796920AC27FA00840301 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9796720AC27FA00840301 /* LoginView.m */; };
+		2FD9796A20AC27FA00840301 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD9796820AC27FA00840301 /* LoginView.xib */; };
+		2FD9797820B29EBB00840301 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9796D20B29EBB00840301 /* FMDatabaseQueue.m */; };
+		2FD9797920B29EBB00840301 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9797020B29EBB00840301 /* FMDatabaseAdditions.m */; };
+		2FD9797A20B29EBB00840301 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9797120B29EBB00840301 /* FMDatabase.m */; };
+		2FD9797B20B29EBB00840301 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9797520B29EBB00840301 /* FMDatabasePool.m */; };
+		2FD9797C20B29EBB00840301 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9797620B29EBB00840301 /* FMResultSet.m */; };
+		2FD9798220B2A81000840301 /* SqlUse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9798120B2A81000840301 /* SqlUse.m */; };
+		2FD9798620B547EB00840301 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9798420B547EB00840301 /* FirstView.m */; };
+		2FD9798720B547EB00840301 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FD9798520B547EB00840301 /* FirstView.xib */; };
+		2FD9798A20B6B65400840301 /* SqlMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD9798920B6B65300840301 /* SqlMemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,31 @@
 		2FD9794D20AC1F1A00840301 /* test_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD9795120AC1F1A00840301 /* test_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_1UITests.m; sourceTree = "<group>"; };
 		2FD9795320AC1F1A00840301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD9795F20AC20E500840301 /* BeginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeginViewController.h; sourceTree = "<group>"; };
+		2FD9796020AC20E500840301 /* BeginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeginViewController.m; sourceTree = "<group>"; };
+		2FD9796120AC20E500840301 /* BeginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeginViewController.xib; sourceTree = "<group>"; };
+		2FD9796420AC265200840301 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		2FD9796620AC27FA00840301 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		2FD9796720AC27FA00840301 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		2FD9796820AC27FA00840301 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		2FD9796C20B29EBB00840301 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		2FD9796D20B29EBB00840301 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		2FD9796E20B29EBB00840301 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		2FD9796F20B29EBB00840301 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		2FD9797020B29EBB00840301 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		2FD9797120B29EBB00840301 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		2FD9797220B29EBB00840301 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		2FD9797320B29EBB00840301 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		2FD9797420B29EBB00840301 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		2FD9797520B29EBB00840301 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		2FD9797620B29EBB00840301 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		2FD9798020B2A81000840301 /* SqlUse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqlUse.h; sourceTree = "<group>"; };
+		2FD9798120B2A81000840301 /* SqlUse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqlUse.m; sourceTree = "<group>"; };
+		2FD9798320B547EB00840301 /* FirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		2FD9798420B547EB00840301 /* FirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		2FD9798520B547EB00840301 /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		2FD9798820B6B65300840301 /* SqlMemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqlMemo.h; sourceTree = "<group>"; };
+		2FD9798920B6B65300840301 /* SqlMemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqlMemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +120,7 @@
 		2FD9792120AC1F1A00840301 = {
 			isa = PBXGroup;
 			children = (
+				2FD9796B20B29EBB00840301 /* fmdb */,
 				2FD9792C20AC1F1A00840301 /* test_1 */,
 				2FD9794520AC1F1A00840301 /* test_1Tests */,
 				2FD9795020AC1F1A00840301 /* test_1UITests */,
@@ -101,6 +141,7 @@
 		2FD9792C20AC1F1A00840301 /* test_1 */ = {
 			isa = PBXGroup;
 			children = (
+				2FD9796420AC265200840301 /* 1.jpg */,
 				2FD9792D20AC1F1A00840301 /* AppDelegate.h */,
 				2FD9792E20AC1F1A00840301 /* AppDelegate.m */,
 				2FD9793020AC1F1A00840301 /* ViewController.h */,
@@ -110,6 +151,19 @@
 				2FD9793820AC1F1A00840301 /* LaunchScreen.storyboard */,
 				2FD9793B20AC1F1A00840301 /* Info.plist */,
 				2FD9793C20AC1F1A00840301 /* main.m */,
+				2FD9795F20AC20E500840301 /* BeginViewController.h */,
+				2FD9796020AC20E500840301 /* BeginViewController.m */,
+				2FD9796120AC20E500840301 /* BeginViewController.xib */,
+				2FD9796620AC27FA00840301 /* LoginView.h */,
+				2FD9796720AC27FA00840301 /* LoginView.m */,
+				2FD9796820AC27FA00840301 /* LoginView.xib */,
+				2FD9798020B2A81000840301 /* SqlUse.h */,
+				2FD9798120B2A81000840301 /* SqlUse.m */,
+				2FD9798320B547EB00840301 /* FirstView.h */,
+				2FD9798420B547EB00840301 /* FirstView.m */,
+				2FD9798520B547EB00840301 /* FirstView.xib */,
+				2FD9798820B6B65300840301 /* SqlMemo.h */,
+				2FD9798920B6B65300840301 /* SqlMemo.m */,
 			);
 			path = test_1;
 			sourceTree = "<group>";
@@ -130,6 +184,24 @@
 				2FD9795320AC1F1A00840301 /* Info.plist */,
 			);
 			path = test_1UITests;
+			sourceTree = "<group>";
+		};
+		2FD9796B20B29EBB00840301 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				2FD9796C20B29EBB00840301 /* FMDatabase.h */,
+				2FD9796D20B29EBB00840301 /* FMDatabaseQueue.m */,
+				2FD9796E20B29EBB00840301 /* FMResultSet.h */,
+				2FD9796F20B29EBB00840301 /* FMDatabasePool.h */,
+				2FD9797020B29EBB00840301 /* FMDatabaseAdditions.m */,
+				2FD9797120B29EBB00840301 /* FMDatabase.m */,
+				2FD9797220B29EBB00840301 /* FMDatabaseQueue.h */,
+				2FD9797320B29EBB00840301 /* FMDB.h */,
+				2FD9797420B29EBB00840301 /* FMDatabaseAdditions.h */,
+				2FD9797520B29EBB00840301 /* FMDatabasePool.m */,
+				2FD9797620B29EBB00840301 /* FMResultSet.m */,
+			);
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +310,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD9796320AC20E500840301 /* BeginViewController.xib in Resources */,
 				2FD9793A20AC1F1A00840301 /* LaunchScreen.storyboard in Resources */,
+				2FD9796A20AC27FA00840301 /* LoginView.xib in Resources */,
 				2FD9793720AC1F1A00840301 /* Assets.xcassets in Resources */,
+				2FD9798720B547EB00840301 /* FirstView.xib in Resources */,
 				2FD9793520AC1F1A00840301 /* Main.storyboard in Resources */,
+				2FD9796520AC265200840301 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +341,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD9796220AC20E500840301 /* BeginViewController.m in Sources */,
 				2FD9793220AC1F1A00840301 /* ViewController.m in Sources */,
 				2FD9793D20AC1F1A00840301 /* main.m in Sources */,
+				2FD9796920AC27FA00840301 /* LoginView.m in Sources */,
+				2FD9797C20B29EBB00840301 /* FMResultSet.m in Sources */,
+				2FD9798620B547EB00840301 /* FirstView.m in Sources */,
+				2FD9797B20B29EBB00840301 /* FMDatabasePool.m in Sources */,
 				2FD9792F20AC1F1A00840301 /* AppDelegate.m in Sources */,
+				2FD9797920B29EBB00840301 /* FMDatabaseAdditions.m in Sources */,
+				2FD9797820B29EBB00840301 /* FMDatabaseQueue.m in Sources */,
+				2FD9798A20B6B65400840301 /* SqlMemo.m in Sources */,
+				2FD9797A20B29EBB00840301 /* FMDatabase.m in Sources */,
+				2FD9798220B2A81000840301 /* SqlUse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
